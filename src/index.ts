@@ -41,7 +41,9 @@ export default {
 
     if (requestOrigin && allowedOrigins.includes(requestOrigin)) {
       corsHeaders = {
-        'Access-Control-Allow-Origin': requestOrigin,
+        // 'Access-Control-Allow-Origin': requestOrigin,
+        'Access-Control-Allow-Origin': '*', // Allows any website to make requests
+
         'Access-Control-Allow-Methods': 'POST, GET, OPTIONS',
         'Access-Control-Allow-Headers': 'Content-Type, Authorization', // Ensure 'Authorization' is included if you use Bearer tokens for /me
       };
