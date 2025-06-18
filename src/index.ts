@@ -59,7 +59,7 @@ export default {
         ),
     google: GoogleProvider({
       clientID: "1234567890",
-      clientID: "1234567890",
+      clientSecret: "0987654321"
     }),
     microsoft: MicrosoftProvider({
       tenant: "1234567890",
