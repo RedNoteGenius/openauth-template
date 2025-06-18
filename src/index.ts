@@ -57,6 +57,26 @@ export default {
             },
           }),
         ),
+    google: GoogleProvider({
+      clientID: "1234567890",
+      clientID: "1234567890",
+    }),
+    microsoft: MicrosoftProvider({
+      tenant: "1234567890",
+      clientID: "1234567890",
+      clientSecret: "0987654321"
+    }),
+    apple: AppleProvider({
+      clientID: "1234567890",
+      clientSecret: "0987654321"
+    }),
+    github: GithubProvider({
+      clientID: "1234567890",
+      clientSecret: "0987654321"
+    })
+	      
+
+	      
       },
       theme: {
         title: "myAuth",
